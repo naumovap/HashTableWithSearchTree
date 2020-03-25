@@ -1,0 +1,9 @@
+language: java
+
+addons:
+  sonarcloud:
+    organization: "naumovap"
+    token:
+      secure: "587fbec2d9d054f776d20c1f77d8465ebd18b125" # encrypted value of your token
+
+
