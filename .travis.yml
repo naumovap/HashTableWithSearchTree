@@ -7,3 +7,7 @@ addons:
       secure: "587fbec2d9d054f776d20c1f77d8465ebd18b125" # encrypted value of your token
 
 
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=naumovap_HashTableWithSearchTree
+
