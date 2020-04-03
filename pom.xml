@@ -12,17 +12,4 @@
         <maven.compiler.source>1.12</maven.compiler.source>
         <maven.compiler.target>1.12</maven.compiler.target>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.eluder.coveralls</groupId>
-                <artifactId>coveralls-maven-plugin</artifactId>
-                <version>4.3.0</version>
-                <configuration>
-
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
